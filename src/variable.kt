@@ -1,11 +1,12 @@
 fun main() {
-    val message = "Hello World"
-    println(message)
-    println(message.length)
+    val popcorn = 5    // There are 5 boxes of popcorn
+    val hotdog = 7     // There are 7 hotdogs
+    var customers = 10 // There are 10 customers in the queue
 
-    var score = 5
-    score = 20
-    println(score)
-//    score *= 2
-//    println(score)
+    // Some customers leave the queue
+    customers = 8
+    println(customers)
+    println(popcorn)
+    println(hotdog)
+    // 8
 }
